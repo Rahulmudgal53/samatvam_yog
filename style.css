@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+
+}
+header{
+    background-color: rgb(225, 167, 61);
+    font-size: 25px;
+}
+header .connect-bar{
+    height: 50px;
+    margin-inline: 10%;
+    align-items: center;
+}
+header div, .rs{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgb(249, 221, 185);
+    font-size: 30px;
+    align-items: center;
+    
+}
